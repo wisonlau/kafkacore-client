@@ -1,0 +1,18 @@
+{
+    "name": "wisonlau/kafkacore-client",
+    "description": "kafka client for php base on rdkafka",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wisonlau",
+            "email": "122022066@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {"KafkaCore\\": "src"}
+    }
+}
